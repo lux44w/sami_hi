@@ -1,0 +1,161 @@
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        background-image: url(rows.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        direction: rtl;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 95%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #d67dae;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+
+    .checkbox-group {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+.aros{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 190px;
+    top: 390px;
+}
+
+
+
+.container {
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+  }
+  
+  .show {
+    opacity: 4; 
+  }
+  
+
+
+  @media only screen and (max-width :1400px){
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        background-image: url(rows.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        direction: rtl;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 95%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #d67dae;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+
+    .checkbox-group {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+.aros{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 0px;
+    top: 100-px;
+}
+
+
+
+.container {
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+  }
+  
+  .show {
+    opacity: 4; 
+  }    
+
+  }
+
+  

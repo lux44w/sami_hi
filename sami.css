@@ -1,0 +1,17 @@
+.cricle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: darkcyan;
+    margin: 30px auto;
+}
+
+
+
+.parallelogram {
+    width: 150px;
+    height: 70px;
+    transform: skew(15deg);
+    background-color: #08298A;
+    margin: 30px auto;
+}
